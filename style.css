@@ -1,0 +1,97 @@
+/** {
+    border: 1px solid red;
+
+
+}*/
+
+.cardwhite { 
+		background-color: #fff;
+		padding: 24px;
+		margin: 30px;
+
+	
+		border-radius: 10px;
+		box-shadow: 10px 10px 20px rgba(0, 0, 0, 0.5);
+
+}
+
+h1 { 
+		color: rgba(0, 200, 0, 1.0); 
+		margin: 10px;
+		padding: 20px;
+		font-size: 28px
+	}
+/*rgba permet de régler l'opacité d'une couleur grance au dernier chiffre */
+
+body {
+		font-family: Calibri, Light;
+		text-align: center;
+
+		 background-color: rgb(211, 211, 211, 1.0);
+}
+/*changer la typo de tout le body*/
+
+p { font-weight: 100;}
+/*bold a la place de 100 pour mettre en gras*/
+p { font-size: 16;}
+
+img {
+	    width: 200px;
+	    border-radius: 50%;
+	    border: 1px solid; 
+}
+
+a {text-decoration: none; } 
+
+a {background-color: rgb(104, 157, 113, 1.0);
+	color: white;
+padding: 15px;
+border-radius: 12px;
+padding-top: 25px;
+transition: all 0.2s ;
+	} 
+
+a:hover {background-color: lightgreen;
+color: black;}
+
+ul {list-style: none;
+padding: 0px}
+
+ul li { 
+		display: inline-block; 
+		margin: 8px ; 
+		padding-left: 0px;
+}
+/*margin en les bullet*/
+
+.bouton { background-color: lightcoral;
+padding-top: 15px;
+}
+/*un point devant la class + rajouter dans le html à quoi coresspond la classe*/
+
+.bouton:hover{ background-color: pink;
+color: black; }
+
+.list-inline i { font-size: 30px;
+padding-top: auto;}
+
+.intro {margin-bottom: 50px;}
+
+
+
+.container { width: 700px;
+margin: 30px auto;
+padding: 24px;}
+
+
+@media(max-width: 960px) {
+	.cardwhite { background-color: rgba(152, 251, 152, 0.7);}
+	h1{ color: white; }
+	.container {width: 500;}
+}
+@media(max-width: 540px) {
+	.container {width: 400px;}
+	.cardwhite { background-color: rgba(152, 251, 152, 0.7);}
+	h1{ color: white; }
+}
+
